@@ -109,3 +109,20 @@ p#warning {
 	font-size: 15pt;
 	font-family: 'Slabo 27px', serif; 
 }
+.github {
+	height: 40px;
+	width: 170px;
+	color: #4d0000;
+	background-color: #fff;
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 1.5em;
+	
+}
+a{
+	color:#4d0000;
+}
+a:hover{
+	color: #4d0000;
+	background-color: #fff; 
+
+}
