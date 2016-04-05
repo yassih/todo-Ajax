@@ -118,11 +118,14 @@ p#warning {
 	font-size: 1.5em;
 	
 }
-a{
+.github a{
 	color:#4d0000;
 }
 a:hover{
 	color: #4d0000;
 	background-color: #fff; 
 
+}
+a:visited {
+   color: #4d0000;
 }
