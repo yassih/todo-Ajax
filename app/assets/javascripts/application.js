@@ -21,9 +21,12 @@ function getLists(){
 		method: 'get',
 		dataType: 'json',
 		success: function(data){
-			for(var i=0 ; i < data.length ; i++){
+			if(data){
+				for(var i=0 ; i < data.length ; i++){
                 $('.items').append('<li id="' + data[i].id + '">' + data[i].name + "<a href='JavaScript: deleteItem(" + data[i].id + ")' class='delete'>X</a>" +'</li>' );
+				}
 			}
+			
 		},
 		error: function(x, status, error){
 			alert('something went wrong');
