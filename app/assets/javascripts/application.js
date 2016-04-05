@@ -29,7 +29,7 @@ function getLists(){
 			
 		},
 		error: function(x, status, error){
-			alert('something went wrong');
+			alert(error);
 		}
 
 	});
