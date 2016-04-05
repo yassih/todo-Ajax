@@ -1,0 +1,111 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+body {
+	font-family: 'Slabo 27px', serif;
+	background-color: #4d0000;
+	color: #9b9b9b;
+}
+h1{
+	font-family: 'Shadows Into Light Two', cursive;
+	color: #4d0000;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 50px;
+}
+.container {
+	background-color: #fff;
+	width: 80%;
+	margin: 25px auto;
+	padding: 30px;
+	border-radius: 7px;
+}
+.form {
+	width: 50%;
+	margin: 50px auto;
+}
+.delete {
+	margin-left: auto;
+	color: #4d0000;
+	font-size: 1.1em;
+	font-family: 'Shadows Into Light Two', cursive;
+}
+.list {
+	width: 40%;
+	margin: 50px auto;
+}
+ul {
+	list-style: none;
+	padding: 0;
+	font-size: 1.2em;
+	color: #4d0000;
+}
+.form {
+	width: 50%;
+	margin: 50px auto;
+}
+form button {
+	margin-left: auto;
+	height: 40px;
+	width: 120px;
+	color: #4d0000;
+	border: 3px solid #4d0000;
+	border-radius: 5px;
+	background-color: #fff;
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 1.1em;
+}
+form button:hover {
+	background-color: #4d0000;
+	color: #fff;
+}
+form input {
+	width: 300px;
+	height: 40px;
+	border-radius: 5px;
+	border: 3px solid #4d0000;
+	font-size: 1.2em;
+	font-family: 'Slabo 27px', serif;
+	/*color: #9b9b9b;*/
+	color: #4d0000;
+}
+
+.list {
+	width: 40%;
+	margin: 50px auto;
+}
+.list ul {
+	list-style: none;
+	padding: 0;
+	font-size: 1.2em;
+}
+.list li{
+	border-bottom: 1px dashed #4d0000;
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+	border-radius: 2px;
+}
+.list li, form {
+	display: flex;
+	align-items: center;
+}
+p#warning {
+	padding-left: 10px;
+	margin-top: 50px;
+	color: #4d0000;
+	font-size: 15pt;
+	font-family: 'Slabo 27px', serif; 
+}
