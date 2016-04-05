@@ -38,7 +38,7 @@ function getLists(){
 function addList(){
 	var name = $("#item").val();
 	if( name !== ''){
-		$("#warning").hide();
+		$("#warning").text(' ');
 		$.ajax({
 			url: '/lists.json',
 			method: 'post',

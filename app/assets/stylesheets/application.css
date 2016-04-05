@@ -17,6 +17,7 @@ body {
 	font-family: 'Slabo 27px', serif;
 	background-color: #4d0000;
 	color: #9b9b9b;
+
 }
 h1{
 	font-family: 'Shadows Into Light Two', cursive;
@@ -80,6 +81,7 @@ form input {
 	font-family: 'Slabo 27px', serif;
 	/*color: #9b9b9b;*/
 	color: #4d0000;
+	padding-left: 15px; 
 }
 
 .list {
@@ -107,7 +109,7 @@ p#warning {
 	margin-top: 50px;
 	color: #4d0000;
 	font-size: 15pt;
-	font-family: 'Slabo 27px', serif; 
+	font-family: 'Shadows Into Light Two', cursive;
 }
 .github {
 	height: 40px;
@@ -117,6 +119,9 @@ p#warning {
 	font-family: 'Shadows Into Light Two', cursive;
 	font-size: 1.5em;
 	
+}
+a{
+	color: #4d0000;
 }
 .github a{
 	color:#4d0000;
@@ -128,4 +133,26 @@ a:hover{
 }
 a:visited {
    color: #4d0000;
+}
+
+.footer {
+	background-color: #fff;
+	width: 80%;
+	margin: 25px auto;
+	padding: 30px;
+	border-radius: 7px;
+	font-size: 1.3em;
+	color: #4d0000;
+	font-family: 'Slabo 27px', serif;
+}
+.footer-text{
+	font-size: 0.80em;
+	color: #4d0000;
+	font-family: 'Slabo', serif;
+}
+.bottom-right{
+	position: fixed;
+    bottom: 0;
+    right: 0;
+    color: #4d0000;
 }
