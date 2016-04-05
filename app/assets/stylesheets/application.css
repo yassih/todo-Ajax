@@ -95,7 +95,7 @@ form input {
 }
 .list li{
 	border-bottom: 1px dashed #4d0000;
-	display: flex;
+	/*display: flex;*/
 	align-items: center;
 	margin-bottom: 10px;
 	border-radius: 2px;
@@ -138,8 +138,9 @@ a:visited {
 .footer {
 	background-color: #fff;
 	width: 80%;
-	margin: 25px auto;
-	padding: 30px;
+	margin: 15px auto;
+	padding: 20px;
+	padding-bottom: 10px;
 	border-radius: 7px;
 	font-size: 1.3em;
 	color: #4d0000;
